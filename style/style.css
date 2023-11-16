@@ -63,6 +63,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 10px;
   }
  
   .content-container h1 {
@@ -85,10 +86,11 @@
     width: 350px;
     height: 350px;
     border-radius: 50px;
-    background: url("https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=1480&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;");
+    background: url(img/Screenshot\ 2023-09-28\ at\ 14.23.10.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: cover;
+
+
   }
  
   .ingredients {
@@ -104,7 +106,7 @@
     list-style: none;
   }
  
-  .img {
+  .ing {
     padding: 10px 20px;
     border: 2px solid #ff6e00;
     color: #ff6e00;
@@ -119,10 +121,3 @@
     padding: 10px;
     color: #ffa31a;
   }
-
-  button{
-    border-radius: 9px;
-    border: 1px solid black;
-    cursor: pointer;
-  }
-
